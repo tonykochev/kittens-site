@@ -1,0 +1,11 @@
+body{
+	margin: 0;
+	font-family: Palatino;
+}
+
+header{
+	background-color: antiquewhite;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
