@@ -1,6 +1,7 @@
 body{
 	margin: 0;
 	font-family: Palatino;
+	max-width: 100%;
 }
 
 header{
@@ -8,4 +9,28 @@ header{
 	text-align: center;
 	padding-top: 35px;
 	padding-bottom: 35px;
+}
+header h1, h2{
+	color: darkslategray;
+	font-size: 30px;
+	text-align: center;
+}
+header img{
+	border: 1px solid darkslategray;
+	max-width: 100%;
+}
+main{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+main img{
+	max-width: 100%;
+}
+p {
+	font-size: 20px;
+}
+button {
+	background-color: darkslategray;
+	color: antiquewhite;
 }
