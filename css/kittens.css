@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	font-family: Palatino;
 	max-width: 100%;
+	font-size: 20px;
 }
 
 header{
@@ -20,7 +21,7 @@ header img{
 	max-width: 100%;
 }
 main{
-	max-width: 900px;
+	max-width: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
 }
@@ -33,4 +34,12 @@ p {
 button {
 	background-color: darkslategray;
 	color: antiquewhite;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
