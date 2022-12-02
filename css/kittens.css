@@ -44,3 +44,36 @@ button {
   flex: 33.33%;
   padding: 5px;
 }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: darkslategray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: ivory;
+  color: lightslategray;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: darkslategray;
+  color: white;
+}
+
+
+
+
+
+
