@@ -7,7 +7,7 @@ body{
 }
 
 header{
-	background-color: antiquewhite;
+	background-color: whitesmoke;
 	text-align: center;
 	padding-top: 35px;
 	padding-bottom: 35px;
@@ -17,6 +17,12 @@ header h1, h2{
 	font-size: 30px;
 	text-align: center;
 }
+h3{
+	color: darkslategray;
+	font-size: 18px;
+	text-align: left;
+	padding: 50px;
+}
 header img{
 	border: 1px solid darkslategray;
 	max-width: 100%;
@@ -24,13 +30,14 @@ header img{
 main{
 	max-width: 100%;
 	margin: 0 auto;
-	padding: 0 20px;
+	padding: 20px;
 }
 main img{
 	max-width: 100%;
 }
 p {
-	font-size: 20px;
+	font-size: 15px;
+
 }
 button {
 	background-color: darkslategray;
@@ -46,7 +53,7 @@ button {
 }
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: antiquewhite;
+  background-color: whitesmoke;
   overflow: hidden;
 }
 
@@ -62,14 +69,14 @@ button {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: ivory;
-  color: lightslategray;
+  background-color: silver;
+  color: whitesmoke;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
   background-color: darkslategray;
-  color: white;
+  color: whitesmoke;
 }
 
 
