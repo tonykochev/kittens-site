@@ -22,9 +22,10 @@ h3{
 	font-size: 18px;
 	text-align: left;
 	padding: 50px;
+	padding-bottom: 0px;
 }
 header img{
-	border: 1px solid darkslategray;
+	border: 3px solid darkslategray;
 	max-width: 100%;
 }
 main{
@@ -37,6 +38,10 @@ main img{
 }
 p {
 	font-size: 15px;
+	padding: 50px;
+	padding-top: 0px;
+	line-height: 1;
+	text-indent: 22px;
 
 }
 button {
